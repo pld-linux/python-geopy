@@ -2,7 +2,7 @@
 Summary:	A Geocoding Toolbox for Python
 Name:		python-%{module}
 Version:	0.94
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	http://geopy.googlecode.com/files/geopy-%{version}.tar.gz
@@ -46,15 +46,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc RELEASES
 %dir %{py_sitescriptdir}/geopy
 %{py_sitescriptdir}/geopy/*.py[co]
 %dir %{py_sitescriptdir}/geopy/geocoders
 %{py_sitescriptdir}/geopy/geocoders/*.py[co]
 %dir %{py_sitescriptdir}/geopy/parsers
 %{py_sitescriptdir}/geopy/parsers/*.py[co]
-%dir %{py_sitescriptdir}/geopy/tests
-%{py_sitescriptdir}/geopy/tests/*.py[co]
 %if "%{py_ver}" > "2.4"
 %{py_sitescriptdir}/geopy-*.egg-info
 %endif
