@@ -9,6 +9,7 @@ Source0:	http://geopy.googlecode.com/files/geopy-%{version}.tar.gz
 # Source0-md5:	09c7f9e59136cec5db7d163e55d3bc68
 URL:		http://code.google.com/p/geopy/
 BuildRequires:	python-devel
+BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildArch:	noarch
