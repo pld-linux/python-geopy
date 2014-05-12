@@ -1,13 +1,13 @@
 %define 	module	geopy
 Summary:	A Geocoding Toolbox for Python
 Name:		python-%{module}
-Version:	0.94.1
+Version:	0.99
 Release:	1
 License:	MIT
 Group:		Development/Languages/Python
-Source0:	http://geopy.googlecode.com/files/geopy-%{version}.tar.gz
-# Source0-md5:	8088f2ae72bfc068594278eaea3740cc
-URL:		http://code.google.com/p/geopy/
+Source0:	https://pypi.python.org/packages/source/g/geopy/geopy-%{version}.tar.gz
+# Source0-md5:	4948be78aeb7809314a1c7454b5d6145
+URL:		https://pypi.python.org/pypi/geopy
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
@@ -51,8 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitescriptdir}/geopy/*.py[co]
 %dir %{py_sitescriptdir}/geopy/geocoders
 %{py_sitescriptdir}/geopy/geocoders/*.py[co]
-%dir %{py_sitescriptdir}/geopy/parsers
-%{py_sitescriptdir}/geopy/parsers/*.py[co]
 %if "%{py_ver}" > "2.4"
 %{py_sitescriptdir}/geopy-*.egg-info
 %endif
