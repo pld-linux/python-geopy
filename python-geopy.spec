@@ -14,6 +14,7 @@ Group:		Development/Languages/Python
 Source0:	https://pypi.python.org/packages/source/g/geopy/geopy-%{version}.tar.gz
 # Source0-md5:	bc11aeb285b8c21522275e79fd98d547
 URL:		https://pypi.python.org/pypi/geopy
+BuildRequires:	rpmbuild(macros) >= 1.710
 
 %if %{with python2}
 ## BuildRequires:	pylint
