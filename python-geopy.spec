@@ -7,12 +7,12 @@
 %define 	module	geopy
 Summary:	A Geocoding Toolbox for Python
 Name:		python-%{module}
-Version:	1.3.0
-Release:	6
+Version:	1.11.0
+Release:	1
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	https://pypi.python.org/packages/source/g/geopy/geopy-%{version}.tar.gz
-# Source0-md5:	bc11aeb285b8c21522275e79fd98d547
+# Source0-md5:	b73445dc0069550bbd2b09162f7339b3
 URL:		https://pypi.python.org/pypi/geopy
 BuildRequires:	rpmbuild(macros) >= 1.710
 
