@@ -8,7 +8,7 @@
 Summary:	A Geocoding Toolbox for Python
 Name:		python-%{module}
 Version:	1.23.0
-Release:	3
+Release:	4
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	https://pypi.python.org/packages/source/g/geopy/geopy-%{version}.tar.gz
