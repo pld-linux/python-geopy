@@ -24,7 +24,6 @@ BuildRequires:	python-setuptools
 %if %{with python3}
 ## BuildRequires:	pylint-python3
 BuildRequires:	python3-devel
-BuildRequires:	python3-distribute
 BuildRequires:	python3-modules
 %endif
 
